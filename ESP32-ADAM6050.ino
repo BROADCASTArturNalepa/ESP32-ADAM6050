@@ -26,10 +26,10 @@
   This code does not implement password validation and session management and should not be used in external networks.
 */
 
-#include <WiFi.h>
+//#include <WiFi.h>
 #include <WiFiUdp.h>
 #include <EEPROM.h>
-
+#include <ESP8266WiFi.h>
 #define WIFI_SSID "YOUR_SSID"
 #define WIFI_PASS "YOUR_WIFI_PASS"
 #define UDP_PORT 1025
